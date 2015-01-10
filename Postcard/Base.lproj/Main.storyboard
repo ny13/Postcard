@@ -103,6 +103,15 @@
                                     <rect key="frame" x="16" y="72" width="346" height="76"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPL-b4-rmd">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="156" width="258" height="42"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +121,7 @@
                                 <exclude reference="XZn-lG-S8n"/>
                                 <exclude reference="t3g-8l-xAc"/>
                                 <exclude reference="ew9-zF-DHY"/>
+                                <exclude reference="sPL-b4-rmd"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +131,7 @@
                                 <include reference="XZn-lG-S8n"/>
                                 <include reference="t3g-8l-xAc"/>
                                 <include reference="ew9-zF-DHY"/>
+                                <include reference="sPL-b4-rmd"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterNameTextField" destination="OQF-P7-Bb5" id="kqs-ut-Bbv"/>
                         <outlet property="mailButton" destination="t3g-8l-xAc" id="Mqe-J1-qYw"/>
                         <outlet property="messageLabel" destination="ew9-zF-DHY" id="T4O-Hq-fwD"/>
+                        <outlet property="nameLabel" destination="sPL-b4-rmd" id="ez9-dI-Xm6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
