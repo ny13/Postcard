@@ -36,8 +36,8 @@ class ViewController: UIViewController {
         messageLabel.textColor = UIColor.redColor()
         
         nameLabel.hidden = false
-        nameLabel.text = "To: " + enterNameTextField.text
-        nameLabel.textColor = UIColor.redColor()
+        nameLabel.text = enterNameTextField.text
+        nameLabel.textColor = UIColor.blueColor()
         
         enterNameTextField.text = ""
         enterNameTextField.resignFirstResponder()
@@ -46,8 +46,7 @@ class ViewController: UIViewController {
         enterMessageTextField.resignFirstResponder()
         
         mailButton.setTitle("Mail Sent", forState: UIControlState.Normal)
-        mailButton.backgroundColor = UIColor.greenColor()
-        
+       
     }
     
 
